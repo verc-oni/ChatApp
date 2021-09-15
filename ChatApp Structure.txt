@@ -1,0 +1,38 @@
+Structure:
+1. USER MANAGEMENT
+	>. Registration
+	>. Login
+	>. Logout
+	>. Forgot Password
+	>. Change Password 
+	>. User Account Management
+		>. Create Profile
+		>. View Profile
+		>. Edit Profile
+		>. Delete Account
+	>. Search for other Users (via username or id)
+	>. Chatroom Creation Option
+		>. Private CR
+		>. Public CR
+
+2. FRIEND SYSTEM:
+	>. Request Management
+		>. Send Request
+		>. Cancel Request
+		>. Accept Request
+		>. Decline Request
+	>. Delete Friend
+
+3. CHATROOM MANAGEMENT
+	>. Private ChatRoom
+		>. 1 to 1 convo (Django Channels & WebSockets)
+	>. Public ChatRoom
+		>. Users with the chatroom code can connect to (Django Channels & WebSockets)
+
+4. NOTIFICATION (Realtime Notifications)
+	>. Noti for all events in
+		>. Friend System
+		>. ChatRoom Management
+	>. Noti for User Authentication	>. Noti for User Account Deletion
+
+
